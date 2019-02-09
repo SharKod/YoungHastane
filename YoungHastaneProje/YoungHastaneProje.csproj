@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2081AF5A-4511-4049-9DE4-447AC32E723A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YoungHastaneProje</RootNamespace>
+    <AssemblyName>YoungHastaneProje</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Extensions, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsFonksiyon.cs" />
+    <Compile Include="dbo_YoungHastaneDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbo_YoungHastaneDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbo_YoungHastaneDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbo_YoungHastaneDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbo_YoungHastaneDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbo_YoungHastaneDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbo_YoungHastaneDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbo_YoungHastaneDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BeslenmeDiyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BeslenmeDiyet.Designer.cs">
+      <DependentUpon>frm_BeslenmeDiyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BeyinveSinirH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BeyinveSinirH.Designer.cs">
+      <DependentUpon>frm_BeyinveSinirH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Cocuk_Cerrahi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Cocuk_Cerrahi.Designer.cs">
+      <DependentUpon>frm_Cocuk_Cerrahi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Doktorlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Doktorlar.Designer.cs">
+      <DependentUpon>frm_Doktorlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoktorListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoktorListe.Designer.cs">
+      <DependentUpon>frm_DoktorListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DoktorRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoktorRapor.Designer.cs">
+      <DependentUpon>frm_DoktorRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Gelir.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>frm_Gelir.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GelirGiderGrafigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GelirGiderGrafigi.Designer.cs">
+      <DependentUpon>frm_GelirGiderGrafigi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Genelistatislik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Genelistatislik.Designer.cs">
+      <DependentUpon>frm_Genelistatislik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Gider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Gider.Designer.cs">
+      <DependentUpon>frm_Gider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GirisYap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GirisYap.Designer.cs">
+      <DependentUpon>frm_GirisYap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HastaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HastaListesi.Designer.cs">
+      <DependentUpon>frm_HastaListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HastaRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HastaRapor.Designer.cs">
+      <DependentUpon>frm_HastaRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KullaniciUyeOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KullaniciUyeOl.Designer.cs">
+      <DependentUpon>frm_KullaniciUyeOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mail.Designer.cs">
+      <DependentUpon>frm_Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Oda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Oda.Designer.cs">
+      <DependentUpon>frm_Oda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_OdaListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OdaListe.Designer.cs">
+      <DependentUpon>frm_OdaListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_OdaRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OdaRapor.Designer.cs">
+      <DependentUpon>frm_OdaRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Odyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Odyoloji.Designer.cs">
+      <DependentUpon>frm_Odyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PerersonelRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PerersonelRapor.Designer.cs">
+      <DependentUpon>frm_PerersonelRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Personeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Personeller.Designer.cs">
+      <DependentUpon>frm_Personeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_personelListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_personelListe.Designer.cs">
+      <DependentUpon>frm_personelListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Randevu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Randevu.Designer.cs">
+      <DependentUpon>frm_Randevu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sifremiUnuttum.Designer.cs">
+      <DependentUpon>frm_sifremiUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_YatanHasta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_YatanHasta.Designer.cs">
+      <DependentUpon>frm_YatanHasta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Yonetici.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="frm_Yonetici.Designer.cs">
+      <DependentUpon>frm_Yonetici.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="frm_Yoneticiislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Yoneticiislem.Designer.cs">
+      <DependentUpon>frm_Yoneticiislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gelir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gelir.Designer.cs">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlBaglanti.cs" />
+    <EmbeddedResource Include="frm_BeslenmeDiyet.resx">
+      <DependentUpon>frm_BeslenmeDiyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BeyinveSinirH.resx">
+      <DependentUpon>frm_BeyinveSinirH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Cocuk_Cerrahi.resx">
+      <DependentUpon>frm_Cocuk_Cerrahi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Doktorlar.resx">
+      <DependentUpon>frm_Doktorlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DoktorListe.resx">
+      <DependentUpon>frm_DoktorListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DoktorRapor.resx">
+      <DependentUpon>frm_DoktorRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Gelir.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frm_Gelir.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GelirGiderGrafigi.resx">
+      <DependentUpon>frm_GelirGiderGrafigi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Genelistatislik.resx">
+      <DependentUpon>frm_Genelistatislik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Gider.resx">
+      <DependentUpon>frm_Gider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GirisYap.resx">
+      <DependentUpon>frm_GirisYap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HastaListesi.resx">
+      <DependentUpon>frm_HastaListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HastaRapor.resx">
+      <DependentUpon>frm_HastaRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KullaniciUyeOl.resx">
+      <DependentUpon>frm_KullaniciUyeOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mail.resx">
+      <DependentUpon>frm_Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Oda.resx">
+      <DependentUpon>frm_Oda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OdaListe.resx">
+      <DependentUpon>frm_OdaListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OdaRapor.resx">
+      <DependentUpon>frm_OdaRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Odyoloji.resx">
+      <DependentUpon>frm_Odyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PerersonelRapor.resx">
+      <DependentUpon>frm_PerersonelRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Personeller.resx">
+      <DependentUpon>frm_Personeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_personelListe.resx">
+      <DependentUpon>frm_personelListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Randevu.resx">
+      <DependentUpon>frm_Randevu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sifremiUnuttum.resx">
+      <DependentUpon>frm_sifremiUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_YatanHasta.resx">
+      <DependentUpon>frm_YatanHasta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Yonetici.resx">
+      <DependentUpon>frm_Yonetici.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Yoneticiislem.resx">
+      <DependentUpon>frm_Yoneticiislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gelir.resx">
+      <DependentUpon>Gelir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Doktorlar.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_DoktorListe.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_DoktorRapor.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_GelirGiderGrafigi.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Genelistatislik.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Gider.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_GirisYap.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_HastaListesi.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_HastaRapor.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_KullaniciUyeOl.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Oda.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_OdaListe.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_OdaRapor.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_PerersonelRapor.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Personeller.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_personelListe.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_sifremiUnuttum.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_YatanHasta.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.frm_Yonetici.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.Gelir.resources" />
+    <EmbeddedResource Include="obj\Debug\YoungHastaneProje.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <None Include="bin\Debug\YoungHastaneProje.exe.config" />
+    <None Include="bin\Debug\YoungHastaneProje.vshost.exe.config" />
+    <None Include="bin\Debug\YoungHastaneProje.vshost.exe.manifest" />
+    <None Include="dbo_YoungHastaneDataSet.xsc">
+      <DependentUpon>dbo_YoungHastaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbo_YoungHastaneDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet.xss">
+      <DependentUpon>dbo_YoungHastaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet1.xsc">
+      <DependentUpon>dbo_YoungHastaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbo_YoungHastaneDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet1.xss">
+      <DependentUpon>dbo_YoungHastaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet2.xsc">
+      <DependentUpon>dbo_YoungHastaneDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbo_YoungHastaneDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet2.xss">
+      <DependentUpon>dbo_YoungHastaneDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet3.xsc">
+      <DependentUpon>dbo_YoungHastaneDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbo_YoungHastaneDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbo_YoungHastaneDataSet3.xss">
+      <DependentUpon>dbo_YoungHastaneDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\RdlCompile.cache" />
+    <None Include="obj\Debug\RdlCompile.compiled" />
+    <None Include="obj\Debug\YoungHastaneProje.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\YoungHastaneProje.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boperson_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boperson_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocontact2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocontact2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocustomer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocustomer_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boresume_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boresume_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editname_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boreport_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boreport_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addheader_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addheader_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeheader_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeheader_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newsales_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newsales_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boorderitem_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boorderitem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weightedpies_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boreport2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boreport2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showtestreport_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showtestreport_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parameters_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parameters_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\column2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\column2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kpi_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kpi_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stackedbar_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stackedbar_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syringe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operator %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operator %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room-key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financial %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel-bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expensive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-presentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\YoungHastaneProje.exe" />
+    <Content Include="bin\Debug\YoungHastaneProje.pdb" />
+    <Content Include="bin\Debug\YoungHastaneProje.vshost.exe" />
+    <Content Include="obj\Debug\TempPE\dbo_YoungHastaneDataSet.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\dbo_YoungHastaneDataSet1.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\dbo_YoungHastaneDataSet2.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\dbo_YoungHastaneDataSet3.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\YoungHastaneProje.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\YoungHastaneProje.exe" />
+    <Content Include="obj\Debug\younghastaneproje.exe.licenses" />
+    <Content Include="obj\Debug\YoungHastaneProje.pdb" />
+    <None Include="Resources\hiring.png" />
+    <None Include="Resources\microphone.png" />
+    <None Include="Resources\youtube.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\settings %281%29.png" />
+    <None Include="Resources\email1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

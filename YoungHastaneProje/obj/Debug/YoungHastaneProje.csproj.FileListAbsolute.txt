@@ -1,0 +1,87 @@
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\frm_Yonetici.resx
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\frm_Yonetici.cs
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\frm_Yonetici.Designer.cs
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\YoungHastaneProje.exe.config
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\YoungHastaneProje.exe
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\bin\Debug\YoungHastaneProje.pdb
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Doktorlar.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_DoktorListe.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_DoktorRapor.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Gelir.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_GelirGiderGrafigi.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Genelistatislik.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Gider.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_GirisYap.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_HastaListesi.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_HastaRapor.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_KullaniciUyeOl.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Oda.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_OdaListe.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_OdaRapor.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_PerersonelRapor.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Personeller.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_personelListe.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_sifremiUnuttum.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_YatanHasta.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Yonetici.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.Gelir.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.Properties.Resources.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.csproj.GenerateResource.Cache
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.exe.licenses
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\RdlCompile.cache
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\RdlCompile.compiled
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.exe
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.pdb
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.csprojResolveAssemblyReference.cache
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Mail.resources
+C:\Users\efede\documents\visual studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Yoneticiislem.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_randevu.resources
+C:\Users\efede\Documents\Visual Studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_BeslenmeDiyet.resources
+C:\Users\efede\documents\visual studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_BeyinveSinirH.resources
+C:\Users\efede\documents\visual studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Cocuk_Cerrahi.resources
+C:\Users\efede\documents\visual studio 2013\Projects\YoungHastaneProje\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Odyoloji.resources
+C:\Users\efede\Desktop\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\YoungHastaneProje.exe.config
+C:\Users\efede\Desktop\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.exe
+C:\Users\efede\Desktop\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.pdb
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\YoungHastaneProje.exe.config
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.exe
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.pdb
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\frm_Yonetici.resx
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\frm_Yonetici.cs
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\frm_Yonetici.Designer.cs
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\YoungHastaneProje.exe
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\bin\Debug\YoungHastaneProje.pdb
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.csprojResolveAssemblyReference.cache
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_BeslenmeDiyet.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_BeyinveSinirH.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Cocuk_Cerrahi.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Doktorlar.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_DoktorListe.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_DoktorRapor.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Gelir.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_GelirGiderGrafigi.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Genelistatislik.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Gider.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_GirisYap.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_HastaListesi.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_HastaRapor.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_KullaniciUyeOl.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Mail.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Oda.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_OdaListe.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_OdaRapor.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Odyoloji.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_PerersonelRapor.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Personeller.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_personelListe.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Randevu.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_sifremiUnuttum.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_YatanHasta.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Yonetici.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.frm_Yoneticiislem.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.Gelir.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.Properties.Resources.resources
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.csproj.GenerateResource.Cache
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\YoungHastaneProje.exe.licenses
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\RdlCompile.cache
+C:\Users\efede\Desktop\Proje\YoungHastaneProjeYedek\YoungHastaneProje\obj\Debug\RdlCompile.compiled
